@@ -10,7 +10,7 @@ req.onload = function () {
     for (let i = 0; i < object.length; i++) {
         console.log(object[i].name.common);
         console.log(object[i].region.common);
-        console.log(object[i].sub - region.common);
+        console.log(object[i].sub-region.common);
     }
 
 };
